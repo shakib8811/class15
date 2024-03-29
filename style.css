@@ -1,0 +1,199 @@
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+
+.max-width{
+    width: 80%;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+/* Style of Header */
+.header{
+    background-color: #22c3a3;
+    padding: 20px 0px;
+}
+.header-left{
+ float: left;
+ width: 30%;
+}
+.header-left h2{
+ font-size: 24px;
+ color: white;
+
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    line-height: 30px;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    list-style: none;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.header-right ul li a:hover{
+    background-color: #14977f;
+    padding: 10px;
+}
+/*Style of Banner */
+.banner{
+    background: url("https://img.hotimg.com/header-bg014c97bf3a6995d6ba.jpeg");
+    padding: 150px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: #fff;
+    background-attachment: fixed;
+}
+.banner h1{
+    margin-bottom: 20px;
+}
+.banner p{
+    margin-bottom: 20px;
+}
+.banner .batton{
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+.banner .batton:hover{
+    border: 2px solid rgb(9, 70, 9);
+    background-color: rgba(0, 0, 0, .3);
+    cursor: pointer;
+    
+}
+/* Style of Service */
+.service{
+    margin: 100px 0px;
+}
+.icon-item{
+    padding-bottom: 100px;
+    border-bottom: 2px solid #0dbe9a;
+
+}
+
+.icon-item .shape{
+    float: left;
+    width: 20%;
+    margin-right: 25px;
+    font-size: 10px;
+    max-width: 150px;
+    margin-left: 25px;
+    font-family: "Roboto", sans-serif;
+
+}
+.icon-item .shape span{
+    font-size: 20px;
+}
+.icon-item .shape h4{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+/* Style of About */
+.about{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.about h2{
+    margin-bottom: 30px;
+}
+.about p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+
+}
+.photo{
+    float: left;
+    width: 50%;
+}
+.photo img{
+    max-width: 100%;
+}
+.about-us{
+    float: right;
+    width: 45%;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    color: rgba(0, 0, 0, .7);
+
+}
+.about-us h4{
+    margin: 15px 0px;
+    font-size: 14px;
+}
+/* Style of Contact */
+.contact{
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+.contact h3{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.contact p{
+    padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+
+}
+.icon-div{
+    width: 33%;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.icon-div span{
+    color:#0dbf9b ;
+  
+}
+.icon-div p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+/* Style of Social */
+.social{
+    background-color: #0dbf9b;
+    color: white;
+    text-align: center;
+}
+.social i{
+    padding: 20px 5px;
+    transition: .5s;
+}
+.social i:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+/* Style of Footer */
+.footer{
+    background-color: #222222;
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 255, 255, .7);
+    font-family: "Roboto", sans-serif;
+}
